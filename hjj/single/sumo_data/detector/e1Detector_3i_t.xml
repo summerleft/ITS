@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sat Jan  2 10:11:27 2021 by Eclipse SUMO sumo Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/hjj/single/sumo_data/single_cross.net.xml"/>
+        <route-files value="/home/hjj/single/sumo_data/routfile/near_6000.rou.xml"/>
+        <additional-files value="/home/hjj/single/sumo_data/single_cross.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="54611"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="900.00" id="3i_t_loop" nVehContrib="38" flow="152.00" occupancy="19.63" speed="9.08" harmonicMeanSpeed="1.08" length="5.00" nVehEntered="38"/>
+    <interval begin="900.00" end="1800.00" id="3i_t_loop" nVehContrib="41" flow="164.00" occupancy="43.56" speed="7.70" harmonicMeanSpeed="0.59" length="5.00" nVehEntered="42"/>
+    <interval begin="1800.00" end="2700.00" id="3i_t_loop" nVehContrib="32" flow="128.00" occupancy="92.60" speed="6.12" harmonicMeanSpeed="0.24" length="5.00" nVehEntered="32"/>
+    <interval begin="2700.00" end="3600.00" id="3i_t_loop" nVehContrib="44" flow="176.00" occupancy="91.61" speed="6.21" harmonicMeanSpeed="0.23" length="5.00" nVehEntered="44"/>
+    <interval begin="3600.00" end="4500.00" id="3i_t_loop" nVehContrib="44" flow="176.00" occupancy="91.76" speed="6.15" harmonicMeanSpeed="0.28" length="5.00" nVehEntered="44"/>
+    <interval begin="4500.00" end="5400.00" id="3i_t_loop" nVehContrib="43" flow="172.00" occupancy="91.71" speed="5.98" harmonicMeanSpeed="0.29" length="5.00" nVehEntered="43"/>
+    <interval begin="5400.00" end="6000.00" id="3i_t_loop" nVehContrib="31" flow="186.00" occupancy="84.29" speed="6.10" harmonicMeanSpeed="0.26" length="5.00" nVehEntered="31"/>
+</detector>

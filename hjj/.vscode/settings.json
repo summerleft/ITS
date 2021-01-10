@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/root/anaconda3/envs/sumo_env/bin/python",
+    "python.linting.pylintArgs": ["--generate-members"]
+}
